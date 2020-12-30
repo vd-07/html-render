@@ -8,14 +8,25 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <button onClick="convert()">Render</button>
-
-        <textarea id="htmlCode">
-            <!-- drop a boilerplate here -->
-            Type some HTML Codes!
+        <textarea id="htmlCode" rows=50 cols=50>
+            <!-- <!DOCTYPE html>
+            <html>
+                <head>
+                    <meta charset="utf-8">
+                    <title>
+                        Hello! World
+                    </title>
+                </head>
+                <body>
+                    Hello! World
+                </body>
+            </html>  -->
         </textarea>
 
-        <iframe id="display"></iframe>
-        <script scr="js/scripts.js"></script>
+        <button class="button" onClick="convert()" height="10px">Render</button>
+
+        <iframe id="display" height="650px" width="50%"></iframe>
+
+        <script src="js/scripts.js"></script>
     </body>
 </html>
