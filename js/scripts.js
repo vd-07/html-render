@@ -1,4 +1,4 @@
 function convert() {
     var code = document.getElementById('htmlCode').value;
-    document.getElementById('display').src = "data:text/plain," + code;
+    document.getElementById('display').srcdoc = code;
 }
